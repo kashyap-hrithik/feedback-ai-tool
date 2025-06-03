@@ -1,0 +1,69 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #f4f7f9; /* A softer, more professional light gray/blue */
+  color: #333a45; /* Darker gray for better contrast */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+textarea,
+input {
+  font-family: inherit;
+  font-size: 1em;
+}
+
+/* App Container */
+.app-container {
+  width: 100%;
+  max-width: 1200px; /* Max width for content area */
+  margin: 0 auto; /* Center the container */
+  padding: 0 24px; /* Horizontal padding */
+}
+
+/* Styled Card */
+.styled-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb; /* Light border */
+  border-radius: 12px; /* More rounded corners */
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  margin-bottom: 24px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.styled-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.styled-card h2,
+.styled-card h3 {
+  color: #1f2937; /* Darker heading color */
+  margin-top: 0;
+}
+
+/* Basic Typography (Optional, but good for consistency) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111827; /* Even darker for main titles */
+  font-weight: 600;
+}
